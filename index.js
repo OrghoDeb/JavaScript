@@ -80,6 +80,7 @@ else {
 
 // How to upload code in Github?
 
-// step one:  in terminal type git init
+// step one:  in terminal type git init  // first time 
 // step two:  git add . 
-// step 3:  git commit -m "My javascript learning"
+// step 3:  git commit -m "condition task"
+// step 4 : git push origin main
