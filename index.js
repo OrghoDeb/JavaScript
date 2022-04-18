@@ -1,5 +1,5 @@
-const temp=40
-if (temp>=40){
+const temp=70
+if (temp>35 & temp<=135){
   console.log("It's hot in here!!")
 }
 else if (temp>25 & temp<=35){
