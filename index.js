@@ -14,7 +14,3 @@ else if(temp>=10 & temp<=18){
 else {
   console.log ("It's freeeeezziiingggg")
 }
-// step one:  in terminal type git init  // first time 
-// step two:  git add . 
-// step 3:  git commit -m "condition task"
-// step 4 : git push origin main
