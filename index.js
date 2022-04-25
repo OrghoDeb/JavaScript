@@ -1,6 +1,6 @@
 let d
-d=new Date(1999, 02, 03)
-const yr=d.getFullYear()
-const mnth=d.getMonth()
-const day=d.getDay()
-console.log("Hi! My date of birth is", yr,"-", mnth,"-", day)
+d=new Date()
+console.log(d)
+let yesterday
+yesterday=date.getdate
+console.log(yesterday)
