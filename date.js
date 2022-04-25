@@ -1,6 +1,4 @@
-let d
-d=new Date(1999, 02, 03)
-const yr=d.getFullYear()
-const mnth=d.getMonth()
-const day=d.getDay()
-console.log("Hi! My date of birth is", yr,"-", mnth,"-", day)
+const date = new Date('14 Jun 2017 14:04:00 GMT+3');
+console.log(`Today is ${date.toUTCString()} in Finnish Time`);
+
+
