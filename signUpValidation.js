@@ -1,24 +1,24 @@
-function emailCheck(email, confirmEmail) {
-  if (email.toLowerCase() === confirmEmail.toLowerCase() ){
-    return "Your email is valid"
-    // google, Micrpsofy
-  }else {
-    return "Your email is invalid"
+function emailValidation(email, confirmEmail) {
+  if (email.toLowerCase()===confirmEmail.toLowerCase()){
+    return "Your E-mail is valid"
   }
- }
- 
- console.log(emailCheck("ALAK@gmail.com", "alak@gmail.com"));
-
-
-function passwordCheck(email, confirmEmail) {
-  if (email.toLowerCase() === confirmEmail.toLowerCase() ){
-    return "Password is valid"
-    // google, Micrpsofy
-  }else {
-    return "Password is invalid"
+  else{
+    return "Your E=mail is invalid"
   }
- }
- 
- console.log(passwordCheck("orghordeb2003", "alak@gmail.com"));
+}
 
- console.log("Hello World")
+
+
+function passwordValid(password, confirmPassword) {
+  if (password !== confirmPassword){
+    return "Your password does not match"
+  } else{
+    return "Yeah password match 👻"
+  }
+}
+
+
+
+function lowerCase(name) {
+  return name.toLowerCase()
+}

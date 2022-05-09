@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
     "weather": "nodemon weatherUpdates.js",
-    "date": "nodemon date.js"
+    "date": "nodemon date.js",
+    "valid" : "nodemon signUpValidation.js",
+    "case": "case.js"
   },
   "author": "Bhaskar Deb",
   "license": "ISC",
