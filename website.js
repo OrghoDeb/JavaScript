@@ -1,4 +1,5 @@
-const name="Bhaskar Deb"
+const firstName="Bhaskar"
+const lastName= "Deb"
 function nameUpperCasing(upperCase)
 {
     return upperCase.toUpperCase()
@@ -7,9 +8,9 @@ function nameLowerCasing(lowerCase)
 {
     return lowerCase.toLowerCase()
 }
-function emailValidation(Email, confirmEmail)
+function emailValidation(email, confirmEmail)
 {
-    if(Email.toLowerCase()===confirmEmail.toLowerCase()){
+    if(email.toLowerCase()===confirmEmail.toLowerCase()){
         return "your E-mail Address matches"
     }
     else {
@@ -18,7 +19,7 @@ function emailValidation(Email, confirmEmail)
 }
 function passwordValidation (password, confirmPassword)
 {
-    if(password===confirmPassword){
+    if(password === confirmPassword){
         return "Your Password matches as well"
     }
     else {
@@ -26,6 +27,6 @@ function passwordValidation (password, confirmPassword)
     }
 }
 
-console.log(`Hello ${name}! Welcome to Google.com.`)
+console.log(`Hello ${firstName.substr(0, 1)+lastName.substr(0,1)}! Welcome to Google.com.`)
 console.log("Here as you can see", emailValidation("orghodeb@gmail.com","orghodeb@gmail.com")+", and", passwordValidation("Limit","Limit")+"!")
 console.log("So now you don't have anything to worry about! You're all good to go! Enjoy Wasting our free storage")
