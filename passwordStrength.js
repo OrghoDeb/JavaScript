@@ -14,4 +14,4 @@ function passwordStrength(password){
    
 }
 
-console.log(passwordStrength(""));
+console.log(passwordStrength(" "));
