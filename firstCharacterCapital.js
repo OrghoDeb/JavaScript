@@ -21,4 +21,4 @@ function nameCharacterCapital (name){
     return titleCase.join(' ')
   }
 
-  console.log(`Hello ${capital("rajib kumar  deb")}`)
+  console.log(`Hello ${capital("rajib kumar deb")}`)
