@@ -8,12 +8,16 @@
     "start": "nodemon index.js",
     "weather": "nodemon weatherUpdates.js",
     "date": "nodemon date.js",
-    "valid" : "nodemon signUpValidation.js",
-    "case": "case.js"
+    "valid": "nodemon signUpValidation.js",
+    "case": "nodemon case.js",
+    "site": "nodemon website.js",
+    "ps": "nodemon passwordStrength.js",
+    "capital": "nodemon firstCharacterCapital.js"
   },
   "author": "Bhaskar Deb",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2"
   }
 }

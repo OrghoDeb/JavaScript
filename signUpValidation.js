@@ -7,8 +7,6 @@ function emailValidation(email, confirmEmail) {
   }
 }
 
-
-
 function passwordValid(password, confirmPassword) {
   if (password !== confirmPassword){
     return "Your password does not match"

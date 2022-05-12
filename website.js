@@ -16,7 +16,7 @@ function emailValidation(email, confirmEmail)
         return "your E-mail Address matches"
     }
     else {
-        return "Sorry, Your E-mail Address Does not match"
+        return `Sorry, Your E-mail Address Does not match`
     }
 }
 function passwordValidation (password, confirmPassword)
@@ -29,6 +29,6 @@ function passwordValidation (password, confirmPassword)
     }
 }
 
-console.log(`Hello`, nameShortcut("alak", "Kumar", "dam")+"!", `Welcome to Google.com.`)
-console.log("Here as you can see",`${emailValidation("orghodeb@gmail.com","orghodeb@gmail.com")}`+", and", `${passwordValidation("Limit","Limit")}`+"!")
+console.log(`Hello ${nameShortcut("alak", "Kumar", "dam")}! Welcome to Google.com.`)
+console.log(`Here as you can see ${emailValidation("orghodeb@gmail.com","orghodeb@gmail.com")} and ${passwordValidation("Limit","Limit")}!`)
 console.log("So now you don't have anything to worry about! You're all good to go! Enjoy Wasting our free storage")

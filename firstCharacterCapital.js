@@ -1,7 +1,7 @@
 function firstCharacterCapital (firstName, lastName){
-  return firstName.charAt(0).toUpperCase() + firstName.slice(1) +
+  return firstName.charAt(0).toUpperCase() + firstName.slice(1) + " " +
   lastName.charAt(0).toUpperCase() + lastName.slice(1)}
-console.log(`Hello ${firstCharacterCapital("bhaskar ", "deb")}`);
+console.log(`Hello ${firstCharacterCapital("bhaskar", "deb")}`);
 
 
 // Another Way
