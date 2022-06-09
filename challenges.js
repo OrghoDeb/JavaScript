@@ -99,19 +99,58 @@ console.log(even(1));
 console.log("\nTask 14 = Task to check if the number is whole");
 function whole(a) {
   if (a % 1 == 0) {
-    return "The number is Whole";
+    return true;
   } else {
-    return "The number is a Float";
+    return false;
   }
 }
+
+//10 % 2 =  5 % 2 = 0
 console.log(whole(2.5));
 
-console.log("\nTask 14 = Multiplication, division, and comparison operators");
+console.log("\nTask 15 = Multiplication, division, and comparison operators");
 function compMath(a, b) {
-  if (b >> a) {
+  if (b > a) {
     return a / b;
   } else {
     return a * b;
   }
 }
-console.log(compMath(100, 10));
+console.log(compMath(10, 100));
+
+console.log(
+  "\nTask 16 = A task to count the number of strings from a specific string"
+);
+function stringCount(a, b) {
+  return b.toLowerCase().split(a);
+}
+console.log(stringCount("a", ""));
+
+console.log("\nTask 17 = A task to concat strings into one");
+
+function myTest(a, b) {
+  return a.includes(b) ? b.concat(a) : a.concat(b);
+}
+console.log(myTest("cake", "cheese"));
+console.log(myTest("Java", "script"));
+console.log(myTest("lips", "s"));
+console.log(myTest(" think, therefore I am", "I"));
+
+// write a function it takes two conditions, if a contains b then return you are ok else you are not ok
+
+function checkFunction(a, b) {
+  return a.includes(b) ? "You're Okay!" : "You're in trouble!";
+}
+console.log(checkFunction("bhaskar deb", "deb"));
+
+console.log("\nTask 18 = A task to round a float to two decimals");
+function decimalsNumber(a) {
+  return a.toFixed(2);
+}
+console.log(decimalsNumber(212335165.123141));
+
+console.log("\nTask 19 = A task to split numbers into digits");
+function splitNumbers(a) {
+  return a.split("");
+}
+console.log(splitNumbers("40"));
