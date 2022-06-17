@@ -12,7 +12,10 @@
     "case": "nodemon case.js",
     "site": "nodemon website.js",
     "ps": "nodemon passwordStrength.js",
-    "capital": "nodemon firstCharacterCapital.js"
+    "capital": "nodemon firstCharacterCapital.js",
+    "condition" : "nodemon conditionFunction.js",
+    "challenges": "nodemon challenges.js",
+    "loopBasics": "nodemon loops.js"
   },
   "author": "Bhaskar Deb",
   "license": "ISC",

@@ -1,4 +1,3 @@
-
 function weatherUpdate(temp) {
   if (temp>35 & temp<=135){
     return "It's hot in here!!"
