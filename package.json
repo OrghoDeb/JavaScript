@@ -15,7 +15,8 @@
     "capital": "nodemon firstCharacterCapital.js",
     "condition" : "nodemon conditionFunction.js",
     "challenges": "nodemon challenges.js",
-    "loopBasics": "nodemon loops.js"
+    "loopBasics": "nodemon loops.js",
+    "habijabi": "nodemon habijabi.js"
   },
   "author": "Bhaskar Deb",
   "license": "ISC",
