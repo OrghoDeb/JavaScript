@@ -175,3 +175,9 @@ function myFunction(a, b) {
 }
 
 console.log(myFunction("1234567", "."));
+
+console.log("\nFind the Higher Nutral number if x is not divisible by y");
+function myFunction(x, y) {
+  while (x % y !== 0) x++;
+  return x;
+}
